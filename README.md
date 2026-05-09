@@ -46,7 +46,7 @@ Peak alpha frequency extraction
 Area Under the Curve (AUC) calculation
 Welch’s independent samples t-test
 
-#Visualizations Created
+# Visualizations Created
 Group alpha power spectra
 Baseline-corrected PSD plots
 Z-scored PSD plots
