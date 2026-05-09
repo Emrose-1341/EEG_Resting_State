@@ -16,7 +16,7 @@ Overview
 
 This project analyzes resting-state EEG data to compare alpha-band brain activity between participants with and without Adverse Childhood Experiences (ACEs) during:
 
-Eyes Closed (EC)
+Eyes Closed (EC) & 
 Eyes Open (EO)
 
 The script computes Power Spectral Density (PSD) using Welch’s method, normalizes the data, visualizes group differences, and performs basic statistical analysis.
