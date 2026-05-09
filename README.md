@@ -22,38 +22,30 @@ Eyes Open (EO)
 The script computes Power Spectral Density (PSD) using Welch’s method, normalizes the data, visualizes group differences, and performs basic statistical analysis.
 What the Code Does
 
-The workflow:
-
-Loads processed EEG .txt files
-Computes PSD for each electrode
-Averages PSD across electrodes and subjects
-Extracts alpha-band activity
-Applies:
-log normalization
-z-scoring
-baseline correction
-Creates comparison plots
-Finds peak alpha frequencies
-Runs statistical testing between groups
+# The workflow:
+1. Load processed EEG .txt files
+2. Compute PSD for each electrode
+3. Average PSD across electrodes and subjects
+4. Extract alpha-band activity
 
 # Statistics Run
-Welch Power Spectral Density (PSD)
-Log transformation
-Baseline correction
-Z-scoring normalization
-Mean-centering
-Peak alpha frequency extraction
-Area Under the Curve (AUC) calculation
-Welch’s independent samples t-test
+1. Welch Power Spectral Density (PSD)
+2. Log transformation
+3. Baseline correction
+4. Z-scoring normalization
+5. Mean-centering
+6. Peak alpha frequency extraction
+7. Area Under the Curve (AUC) calculation
+8. Welch’s independent samples t-test
 
 # Visualizations Created
-Group alpha power spectra
-Baseline-corrected PSD plots
-Z-scored PSD plots
-Mean-centered alpha power plots
-Eyes Closed vs Eyes Open comparisons
-ACEs vs No ACEs comparisons
-Combined group comparison plots
-Peak alpha activation plots
-Highlighted alpha-band region (8–12 Hz)
-Overlaid spectral comparison graphs
+1. Group alpha power spectra
+2. Baseline-corrected PSD plots
+3. Z-scored PSD plots
+4. Mean-centered alpha power plots
+5. Eyes Closed vs Eyes Open comparisons
+6. ACEs vs No ACEs comparisons
+7. Combined group comparison plots
+8. Peak alpha activation plots
+9. Highlighted alpha-band region (8–12 Hz)
+10. Overlaid spectral comparison graphs
